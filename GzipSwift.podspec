@@ -19,6 +19,7 @@ Pod::Spec.new do |s|
   s.ios.deployment_target     = '12.0'
   s.watchos.deployment_target = '2.0'
   s.tvos.deployment_target    = '12.0'
+  s.visionos.deployment_target    = '1.0'
 
   s.requires_arc  = true
   s.library       = 'z'
